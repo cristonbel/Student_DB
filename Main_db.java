@@ -1,3 +1,7 @@
+//Criston Barboza
+//200970019
+//MCA- MIT Manipal
+//Student database
 import java.sql.*;
 import java.util.Scanner;
 
