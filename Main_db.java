@@ -56,8 +56,9 @@ public class Main_db {
 		try {
 			System.out.println("Enter the Student No");
 			sno=sc.nextInt();
+			sc.nextLine();
 			System.out.println("Enter the Student Name");
-			name=sc.next();
+			name=sc.nextLine();
 			System.out.println("Enter the Birth Date(Month-Date-YearFormat)");
 			dob=sc.next();
 			System.out.println("Enter the Joining Date(Month-Date-YearFormat)4");
@@ -92,8 +93,9 @@ public class Main_db {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the Student Number");
 		int sno=sc.nextInt();
+		sc.nextLine()
 		System.out.println("Enter the Student Name");
-		String name=sc.next();
+		String name=sc.nextLine();
 		System.out.println("Enter the Birth Date(Month-Date-YearFormat)");
 		String dob=sc.next();
 		System.out.println("Enter the Joining Date(Month-Date-YearFormat)");
