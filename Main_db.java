@@ -64,7 +64,7 @@ public class Main_db {
 			doj=sc.next();
 			
 			Connection con=getconnection();
-			PreparedStatement statement=con.prepareStatement("INSERT INTO STUDENT(STUDENT_NO,STUDENT_NAME) VALUES ('"+sno+"','"+name+"',str_to_date('"+dob+"','%m-%d-%Y'),str_to_date('"+doj+"','%m-%d-%Y'))");
+			PreparedStatement statement=con.prepareStatement("INSERT INTO STUDENT(STUDENT_NO,STUDENT_NAME,DOB,DOJ) VALUES ('"+sno+"','"+name+"',str_to_date('"+dob+"','%m-%d-%Y'),str_to_date('"+doj+"','%m-%d-%Y'))");
 			statement.executeUpdate();
 			System.out.println("Information Inserted into Table");
 		}
